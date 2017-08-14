@@ -13,16 +13,15 @@
          "android:isRepeatable" : true/false (default is false) whether this key repeats printing on long press (like the backspace). Setting this to true will disable the long-press (android:popupCharacters) functionality
          "android:keyWidth" : specify the width of this key
          -->
-        <Key android:codes="113" android:popupCharacters="1" android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:popupCharacters="2"/>
-        <Key android:codes="101" android:popupCharacters="3èéêëęē€"/>
-        <Key android:codes="114" android:popupCharacters="4" />
-        <Key android:codes="116" android:popupCharacters="5"/>
-        <Key android:codes="121" android:popupCharacters="6ýÿ" />
-        <Key android:codes="117" android:popupCharacters="7ùúûüŭűū" />
-        <Key android:codes="105" android:popupCharacters="8ìíîïłī" />
-        <Key android:codes="111" android:popupCharacters="9òóôõöøőœō" />
-        <Key android:codes="112" android:popupCharacters="0" android:keyEdgeFlags="right"/>
+        <Key android:horizontalGap="5%p" android:codes="119" android:popupCharacters="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="101" android:popupCharacters="2èéêëęē€"/>
+        <Key android:codes="114" android:popupCharacters="3" />
+        <Key android:codes="116" android:popupCharacters="4"/>
+        <Key android:codes="121" android:popupCharacters="5ýÿ" />
+        <Key android:codes="117" android:popupCharacters="6ùúûüŭűū" />
+        <Key android:codes="105" android:popupCharacters="7ìíîïłī" />
+        <Key android:codes="111" android:popupCharacters="8òóôõöøőœō" />
+        <Key android:codes="112" android:popupCharacters="90" android:keyEdgeFlags="right"/>
     </Row>
      
     <Row>
@@ -39,7 +38,7 @@
     
     <Row>
         <Key android:codes="-1" android:keyWidth="15%p"
-                android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+                android:isModifier="true" android:isSticky="true" android:docker fordgeFlags="left"/>
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters="żžź"/>
         <Key android:codes="120" android:keyLabel="x"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="çćĉč"/>
