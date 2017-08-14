@@ -13,8 +13,7 @@
          "android:keyWidth" : specify the width of this key
          -->
     <Row>
-        <Key android:codes="59" android:keyEdgeFlags="left"/>
-        <Key android:codes="962"/>
+        <Key android:horizontalGap="5%p" android:codes="962" android:keyEdgeFlags="left"/>
         <Key android:codes="949" android:popupCharacters="έ"/>
         <Key android:codes="961"/>
         <Key android:codes="964"/>
